@@ -18,7 +18,19 @@ Meteor.startup( function (){
                 deadline: new Date('Dec 24, 2013'),
                 repetitions: 4,
                 state: true,
-                object: {version: "0.9"}
+                object: {version: "0.9"},
+                companies: [
+                    {
+                        company: "Company1",
+                        jobTitle: "job1",
+                        years: 5
+                    },
+                    {
+                        company: "Company2",
+                        jobTitle: "job2",
+                        years: 9
+                    }
+                ]
             },
             {
                 title:'Hello There!',
@@ -26,7 +38,19 @@ Meteor.startup( function (){
                 deadline: new Date('Dec 23, 2014'),
                 repetitions: 4,
                 state: true,
-                object: {version: "0.8"}
+                object: {version: "0.8"},
+                companies: [
+                    {
+                        company: "Company1",
+                        jobTitle: "job2",
+                        years: 7
+                    },
+                    {
+                        company: "Company3",
+                        jobTitle: "job4",
+                        years: 2
+                    }
+                ]
             },
             {
                 title:'Project Swim',

@@ -22,7 +22,9 @@ TabularTables.Table = new Tabular.Table({
       }
     },
     {data: "repetitions", title: "Repetitions"},
-    {data: "state", title: "State"}/*,
+    {data: "state", title: "State"},
+    {data: "companies", title: "Company"}
+    /*,
     {
       data: "object", title: "Object",
       render: function (val, type, doc) {

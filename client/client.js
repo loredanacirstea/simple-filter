@@ -1,11 +1,7 @@
-Template.registerHelper("log", function(opt){
-  console.log(opt);
-});
-
 Meteor.subscribe('table');
 
 Template.view_table.rendered = function(){
-    Session.set("schema", "Table");
+    Session.set("tabular-filter", {schema: "Table", label: ''});
 }
 
 Template.view_table.helpers({
